@@ -5,8 +5,10 @@
 }
 
 .textotitulo{
-    font-family: sans-serif;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    
 }
 
 .textotitulo--color{
@@ -39,4 +41,38 @@
     width: 100%;
 }
 
+.cajatextoylogos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    width: 500px;
+}
+
+.textosincentrar{
+    text-align: left;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.fotoazul{
+    display: flex;
+    width: 100%;
+    margin: 150px 10px 10px 0px;
+}
+
+.fotoverde{
+    display: flex;
+    width: 100%;
+    margin: 100px 10px 10px 0px;
+
+}
+
+.fuentesans{
+    font-family: sans-serif;
+}
+
+.colortextazul{
+    color: blue;
+}
 

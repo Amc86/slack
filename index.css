@@ -1,25 +1,30 @@
+@charset "UTF-8";
 .fondo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: #541555;
   width: 100%;
-  height: 500px;
+  height: 70px;
 }
 
 .cabecera {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   height: 70px;
-  margin: 0px;
-  justify-content: space-between;
 }
 
 .cabecera__logo {
-  width: 90px;
+  width: 100px;
   margin: 20px;
 }
 
 .cabecera__hamburguesa {
   width: 20px;
   margin: 20px;
+  margin-left: 150px;
 }
 
 .cajatexto {
@@ -29,7 +34,8 @@
 }
 
 .textotitulo {
-  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -63,8 +69,91 @@
   width: 100%;
 }
 
+.cajatextoylogos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  width: 500px;
+}
+
+.textosincentrar {
+  text-align: left;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.fotoazul {
+  display: flex;
+  width: 100%;
+  margin: 150px 10px 10px 0px;
+}
+
+.fotoverde {
+  display: flex;
+  width: 100%;
+  margin: 100px 10px 10px 0px;
+}
+
+.fuentesans {
+  font-family: sans-serif;
+}
+
+.colortextazul {
+  color: blue;
+}
+
 .fondocrema {
+  display: flex;
+  flex-direction: column;
   background-color: #F4EDE4;
   width: 100%;
-  height: 500px;
+  height: 2370px;
+  margin-top: 180px;
+}
+
+.empresa {
+  text-align: center;
+}
+
+.cajalogos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logostamaño {
+  height: 50px;
+  margin: 25px;
+}
+
+.fondocrema {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2370px;
+  margin-top: 180px;
+}
+
+.botonmorado {
+  border-radius: 6px;
+  margin: 3px 0px 3px 0px;
+  background-color: #541555;
+  color: white;
+  width: 354px;
+}
+
+.botonblanco {
+  border-radius: 6px;
+  margin: 3px 0px 3px 0px;
+  color: #541555;
+  width: 354px;
+  border-color: solid #541555;
 }/*# sourceMappingURL=index.css.map */
